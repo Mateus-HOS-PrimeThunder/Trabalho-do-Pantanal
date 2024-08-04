@@ -1,0 +1,84 @@
+body,
+nav,
+ul,
+li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: arial;
+}
+h6{
+    text-align: left;
+}
+
+.header>a {
+    text-decoration: none;
+    color: white;
+}
+.header>nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: black;
+    position: fixed;
+    width: 98dvw;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    width: auto;
+}
+
+.flex {
+    max-width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+   
+}
+
+.flex>div {
+    flex: 1;
+    margin: 5px;
+    text-align: center;
+    font-size: 1.5em;
+
+}
+
+.flex>div>p {
+    text-align: justify;
+}
+
+footer {
+    padding: 5px;
+    background-color: black;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1em;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
